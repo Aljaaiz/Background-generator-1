@@ -3,18 +3,22 @@
 	margin: 0;
 }
 body {
-	background: #555;
+	background: linear-gradient(to right, rgb(71, 103, 218), rgb(129, 178, 215));
 	text-align: center;
 	padding: 40px 0;
 	color: #fff;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 
 h1 {
-	font-weight: 700;
-	font-size: 40px;
+	font-weight: 400;
+	font-size: 35px;
 	text-transform: uppercase;
-	margin-bottom: 20px;
+	margin-bottom: 60px;
+}
+p {
+	font: size 18px;
+	padding: 20px;
 }
 input {
 	margin: 0 10px;
@@ -26,4 +30,12 @@ h2 {
 }
 h3 {
 	font-weight: 300;
+}
+#author {
+	margin-top: 40px;
+}
+a {
+	color: rgb(252, 252, 252);
+	font-weight: 300;
+	font-style: italic;
 }
